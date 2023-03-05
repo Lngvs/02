@@ -1,0 +1,107 @@
+*, *:before, *:after {
+  box-sizing: border-box;
+}
+
+html, body, div, span, object, iframe, figure, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, code, em, img, small, strike, strong, sub, sup, tt, b, u, i, ol, ul, li, fieldset, form, label, table, caption, tbody, tfoot, thead, tr, th, td, main, canvas, embed, footer, header, nav, section, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -webkit-text-size-adjust: none;
+     -moz-text-size-adjust: none;
+          text-size-adjust: none;
+}
+
+footer, header, nav, section, main {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after, q:before, q:after {
+  content: "";
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+input {
+  -webkit-appearance: none;
+  border-radius: 0;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.premium {
+  background-color: orange;
+}
+
+.red {
+  background-color: red;
+}
+
+body {
+  background-color: rgb(200, 197, 197);
+}
+
+.container {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+ul {
+  position: absolute;
+  right: 0;
+  list-style-type: none;
+  font-size: 0;
+}
+ul li {
+  padding: 10px;
+  display: inline-block;
+  padding: 5px 30px;
+  font-size: 16px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.main {
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  top: 50%;
+}
+.main section {
+  text-align: center;
+  padding: 50px;
+  display: inline-block;
+  background-color: white;
+  margin-right: 10px;
+  border: solid 1px;
+  border-color: rgba(215, 215, 215, 0.5);
+}/*# sourceMappingURL=styles.css.map */
